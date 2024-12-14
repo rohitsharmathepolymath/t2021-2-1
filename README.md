@@ -50,21 +50,24 @@ To compile and run this C++ project, ensure the following are installed:
 
 1. Clone the repository:
    In bash
-   git clone https://github.com/rohitsharmathepolymath/t2021-2-1.git
 
    ```
-
+   git clone https://github.com/rohitsharmathepolymath/t2021-2-1.git
    ```
 
 2. Navigate to the project directory:
    In bash
 
-   > cd t2021-2-1
+   ```
+   cd t2021-2-1
+   ```
 
 3. Compile the code:
    In bash
 
+   ```
    > g++ -o output_file main.cpp
+   ```
 
    Replace `main.cpp` with the entry point file if different.
 
