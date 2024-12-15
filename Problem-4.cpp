@@ -23,9 +23,13 @@ int main() {
             }
         }
     }
+    cout<<"{";
     for (int i = 1; i <= 9; i++) {
-            cout << i << ": " << countMap[i] << ", ";
+            cout << i << ": " << countMap[i] ;
+            if(i<9){
+                cout<< ", ";
+            }
     }
-    cout << endl;
+    cout <<"}"<<endl;
     return 0;
 }
